@@ -36,7 +36,7 @@
       </figcaption>
   </figure>
 
-  <a href="kelola.html" type="button" class="btn btn-primary mb-3"><i class="fa fa-plus"></i> Tambah Data</a>
+  <a href="kelola.php" type="button" class="btn btn-primary mb-3"><i class="fa fa-plus"></i> Tambah Data</a>
 
   <div class="table-responsive">
       <table class="table align-middle table-bordered table-hover">
@@ -62,8 +62,8 @@
             </td>
             <td>Jl. Kusuma Negara</td>
             <td>
-              <a href="kelola.html" type="button" class="btn btn-success btn-sm"><i class="fa fa-pencil"></i></a>
-              <button type="button" class="btn btn-danger btn-sm"><i class="fa fa-trash"></i></button>
+              <a href="kelola.php?ubah=1" type="button" class="btn btn-success btn-sm"><i class="fa fa-pencil"></i></a>
+              <a href="proses.php?hapus=1" type="button" class="btn btn-danger btn-sm"><i class="fa fa-trash"></i></a>
             </td>
           </tr>
           <tr>
@@ -76,8 +76,8 @@
             </td>
             <td>Jl. Kusuma Bangsa</td>
             <td>
-              <button type="button" class="btn btn-success btn-sm"><i class="fa fa-pencil"></i></button>
-              <button type="button" class="btn btn-danger btn-sm"><i class="fa fa-trash"></i></button>
+            <a href="kelola.php?ubah=2" type="button" class="btn btn-success btn-sm"><i class="fa fa-pencil"></i></a>
+              <a href="proses.php?hapus=2" type="button" class="btn btn-danger btn-sm"><i class="fa fa-trash"></i></a>
             </td>
           </tr>
         </tbody>
